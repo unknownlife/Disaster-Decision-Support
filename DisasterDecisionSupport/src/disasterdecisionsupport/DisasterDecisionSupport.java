@@ -6,7 +6,6 @@
 package disasterdecisionsupport;
 
 //import com.hp.hpl.jena.datatypes.xsd.XSDDatatype;
-
 import disasterdecisionsupport.disaster.Earthquake;
 import disasterdecisionsupport.disaster.Earthquake_Handler;
 import disasterdecisionsupport.server.MyIMAPServer;
@@ -23,6 +22,14 @@ import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.json.simple.parser.ParseException;
+import java.io.DataOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+
 //import java.io.IOException;
 //import java.io.OutputStream;
 //import java.net.InetSocketAddress;
@@ -53,12 +60,14 @@ import org.json.simple.parser.ParseException;
  *
  * @author Classified
  */
-public class DisasterDecisionSupport extends Thread {
 
+public class DisasterDecisionSupport extends Thread {
+   
     /**
      * @param args the command line arguments
      */
     private ServerSocket ss;
+    static String s123=null;
 	
 	public DisasterDecisionSupport(int port) {
 		try {
@@ -83,8 +92,9 @@ public class DisasterDecisionSupport extends Thread {
 
 	private void saveFile(Socket clientSock) throws IOException, FileNotFoundException, ParseException {
 		DataInputStream dis = new DataInputStream(clientSock.getInputStream());
-		FileOutputStream fos = new FileOutputStream("C:\\Users\\Zonoid\\Desktop\\eq3.json");
-		byte[] buffer = new byte[4096];
+		FileOutputStream fos = new FileOutputStream("D:\\eq3.json");
+   
+                byte[] buffer = new byte[4096];
 		
 		int filesize = dis.readInt();
               //  System.out.println(filesize);// Send file size in separate msg
@@ -97,18 +107,37 @@ public class DisasterDecisionSupport extends Thread {
 			
 			fos.write(buffer, 0, read);
 		}
+		DataOutputStream oout = new DataOutputStream(clientSock.getOutputStream());
+                json j=new json();
+                s123 = j.convert();
+                
+                oout.writeUTF(s123);
 		
 		fos.close();
 		dis.close();
-                json j=new json();
-                j.convert();
+               //System.out.println(s123);
+               //server(s123);
 	}
-    public static void main(String[] args) throws Exception {
+       /* static void server(String s123) throws IOException {
+    try{
+            ServerSocket ss = new ServerSocket(3000);
+    Socket socket = ss.accept();
+    //OutputStream out = socket.getOutputStream();
+    DataOutputStream oout = new DataOutputStream(socket.getOutputStream());
+    oout.writeUTF(s123);
+    //oout.writeObject(s123);
+    //oout.close();
+    }
+    catch(Exception e){
+        e.printStackTrace();
+    }
+}*/
+    public static void main(String[] args) throws Exception, IOException, ClassNotFoundException {
         //MyIMAPServer email = new MyIMAPServer();
         //System.out.println(HelperFunctions.getCity(18.9220, 72.8347));
         //email.startEmailListener();
         //email.listEmails();
-        DisasterDecisionSupport obj=new DisasterDecisionSupport(1988);
+        DisasterDecisionSupport obj=new DisasterDecisionSupport(1989);
         obj.start();
   /*      DisasterOntology ont = new DisasterOntology();
         Earthquake eq = new Earthquake(null, "India", "Koynanagar",9, 19.0760, 72.8777, 10, "07/04/2017", "13:30:30");

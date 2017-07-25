@@ -7,7 +7,7 @@ package disasterdecisionsupport;
 
 /**
  *
- * @author Zonoid
+ * @author Shikhar
  */
 import java.io.*;
 import java.net.URL;
@@ -17,7 +17,7 @@ import java.net.URLEncoder;
 public class sms {
     sms(String s){
          String authkey = "161318AeiTtm6yM594be588";
-            String mobiles = "+918447278554";
+            String mobiles = "+919728429149";
             String senderId = "earthQ";
             String message = s;
             String route="4";

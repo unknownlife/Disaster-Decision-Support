@@ -1,3 +1,4 @@
+
 package disasterdecisionsupport;
 
 import disasterdecisionsupport.similiar_postgres;
@@ -27,10 +28,10 @@ import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.ModelFactory;
 
 public class json {
-    String Place,state,Date;
+    String output,Place,state,Date;
     double Mag,actions[];
-	public void convert() throws FileNotFoundException, IOException, ParseException {
-	        JsonReader reader = Json.createReader(new FileReader("C:/Users/Zonoid/Desktop/eq3.json"));
+	public String convert() throws FileNotFoundException, IOException, ParseException {
+	        JsonReader reader = Json.createReader(new FileReader("D:/eq3.json"));
 	         
 	        JsonObject obj = reader.readObject();
 	         
@@ -75,7 +76,7 @@ public class json {
                         String m=""+p;
                         List<String> needs_Recources = q.getNeedRecources1(ont.getOntModel(), m);
             
-            String output="\n\nHumanitarian Assiastance:\n ";
+             output="\n\nHumanitarian Assiastance:\n ";
             String title="";
             for (String action: needs_Recources){
        //         System.out.println(action);
@@ -136,8 +137,9 @@ public class json {
                 output+=ar2[1]+"\n";
                }}
             System.out.println(output+"\n");
-            for(int i=0;i<6;i++)
-                System.out.print(actions[i]+"\t");
+            
+//for(int i=0;i<6;i++)
+                //System.out.print(actions[i]+"\t");
  //        new json().store();
 //       new sms(output);
  /*            p=(int)actions[3];
@@ -254,8 +256,8 @@ catch(Exception e){
 	     
 	             System.out.println();*/
 	        }
-	   
-	   
+	   new sms(output);
+	 return output;  
 	}
 
 	

@@ -5,7 +5,6 @@
  */
 package disasterdecisionsupport;
 
-import com.sun.org.apache.xml.internal.security.Init;
 import java.util.ArrayList;
 import java.util.List;
 import org.apache.jena.query.Query;
