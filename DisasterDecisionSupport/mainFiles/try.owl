@@ -1,0 +1,1116 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Disaster_Ontology "http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/classified/ontologies/2017/3/untitled-ontology-10#"
+     xml:base="http://www.semanticweb.org/classified/ontologies/2017/3/untitled-ontology-10"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Disaster_Ontology="http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasEmergencyScheme -->
+
+    <owl:ObjectProperty rdf:about="&Disaster_Ontology;hasEmergencyScheme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasLandscapeType -->
+
+    <owl:ObjectProperty rdf:about="&Disaster_Ontology;hasLandscapeType">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;City"/>
+        <rdfs:range rdf:resource="&Disaster_Ontology;Landscape_Type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasLocation -->
+
+    <owl:ObjectProperty rdf:about="&Disaster_Ontology;hasLocation">
+        <rdfs:range rdf:resource="&Disaster_Ontology;City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasPurpose -->
+
+    <owl:ObjectProperty rdf:about="&Disaster_Ontology;hasPurpose"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsAction -->
+
+    <owl:ObjectProperty rdf:about="&Disaster_Ontology;needsAction">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;Reaction_Scheme"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasAirVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasAirVehicle"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasBloodSupply -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasBloodSupply">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasSupply"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasBloodSupply_A -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasBloodSupply_A">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasBloodSupply_AB -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasBloodSupply_AB">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasBloodSupply_A"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasBloodSupply_B -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasBloodSupply_B">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasBloodSupply"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasBloodSupply_O -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasBloodSupply_O">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasBloodSupply"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasEarthquakeTreshold -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasEarthquakeTreshold">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasEmergencyTreshold"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasEmergencyLevel -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasEmergencyLevel">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasEmergencyTreshold -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasEmergencyTreshold"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasGoodsVolumeCapacity -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasGoodsVolumeCapacity">
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasGroundVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasGroundVehicle">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasHercules -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasHercules">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasAirVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasIntensity -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasIntensity">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;Emergency_Situation_Scheme"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasLatitude">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;Country"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasLongitude">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;Country"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasName -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasName">
+        <rdfs:range rdf:resource="&xsd;string"/>
+        <rdfs:domain rdf:resource="&owl;Thing"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasPeopleCapacity -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasPeopleCapacity">
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasPercentagePossibleVictim -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasPercentagePossibleVictim">
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasPopulation -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasPopulation">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;City"/>
+        <rdfs:range rdf:resource="&xsd;long"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasRecourceResource -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasRecourceResource"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasSupply -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasSupply">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasRecourceResource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasTreshold -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasTreshold">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;City"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasTresholdRange -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasTresholdRange">
+        <rdfs:domain rdf:resource="&Disaster_Ontology;Emergency_Situation_Scheme"/>
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasVehicle">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;hasRecourceResource"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#hasVolume -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;hasVolume">
+        <rdfs:range rdf:resource="&xsd;double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#isNeedAction -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;isNeedAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#nbOfPossibleVictim -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;nbOfPossibleVictim"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsAirVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsAirVehicle">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsArmy -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsArmy">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsTeam"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsFirefighter -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsFirefighter">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsTeam"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsGroundVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsGroundVehicle">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsObservationDrone -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsObservationDrone">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsAirVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsObservationHelicopter -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsObservationHelicopter">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsAirVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsObservationPlane -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsObservationPlane">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsAirVehicle"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsObserver -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsObserver">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsTeam"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsParamedic -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsParamedic">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsTeam"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsPolice -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsPolice">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsTeam"/>
+        <rdfs:range rdf:resource="&xsd;integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsRecourse -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsRecourse">
+        <rdfs:comment>number of resource required for the recourse</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsTeam -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsTeam">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsRecourse"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#needsVehicle -->
+
+    <owl:DatatypeProperty rdf:about="&Disaster_Ontology;needsVehicle">
+        <rdfs:subPropertyOf rdf:resource="&Disaster_Ontology;needsRecourse"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Air_Vehicle -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Air_Vehicle">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Blood -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Blood">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#City -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;City">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Country"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Clarification_Of_Situation -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Clarification_Of_Situation">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Clearing_Work -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Clearing_Work">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Clothing -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Clothing">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Communication -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Communication">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Recourse_For_Reaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Containment -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Containment">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Country -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Earthquake -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Earthquake">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Geophysical_Disaster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Earthquake_History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Earthquake_History">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Geophysical_Disaster_History"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Emergency_Situation_History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Emergency_Situation_History">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;History"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Emergency_Situation_Scheme -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Emergency_Situation_Scheme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Enlightment_Of_Population -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Enlightment_Of_Population">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Etc -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Etc"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Evacuation -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Evacuation">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Food -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Food">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Gender -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Gender">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Etc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Geophysical_Disaster -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Geophysical_Disaster">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Natural_Disaster"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Geophysical_Disaster_History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Geophysical_Disaster_History">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Natural_Disaster_History"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Ground_Shaking -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Ground_Shaking">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Earthquake"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Ground_Shaking_History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Ground_Shaking_History">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Earthquake_History"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Ground_Vehicle -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Ground_Vehicle">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;History"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Landscape_Type -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Landscape_Type">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Etc"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Medical -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Medical">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Medical_Support -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Medical_Support">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Natural_Disaster -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Natural_Disaster">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Emergency_Situation_Scheme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Natural_Disaster_History -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Natural_Disaster_History">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Emergency_Situation_History"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#On_Emergency -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;On_Emergency">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Reaction_Scheme"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Other_Supply -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Other_Supply">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Prevention -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Prevention">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Reaction_Scheme -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Reaction_Scheme"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Recourse_For_Reaction -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Recourse_For_Reaction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Supply -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Supply">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Recourse_For_Reaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Supply_Of_Goods -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Supply_Of_Goods">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;On_Emergency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Team -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Team">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Recourse_For_Reaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Vehicle -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Vehicle">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Recourse_For_Reaction"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Water -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Water">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Supply"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Water_Vehicle -->
+
+    <owl:Class rdf:about="&Disaster_Ontology;Water_Vehicle">
+        <rdfs:subClassOf rdf:resource="&Disaster_Ontology;Vehicle"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#-unregistered- -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;-unregistered-">
+        <rdf:type rdf:resource="&Disaster_Ontology;City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#AB_Blood -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;AB_Blood">
+        <rdf:type rdf:resource="&Disaster_Ontology;Blood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#A_Blood -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;A_Blood">
+        <rdf:type rdf:resource="&Disaster_Ontology;Blood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Army -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Army">
+        <rdf:type rdf:resource="&Disaster_Ontology;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#B_Blood -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;B_Blood">
+        <rdf:type rdf:resource="&Disaster_Ontology;Blood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Clearing_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Clearing_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Clearing_Work"/>
+        <Disaster_Ontology:needsArmy rdf:datatype="&xsd;integer">30</Disaster_Ontology:needsArmy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Clearing_Level_2 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Clearing_Level_2">
+        <rdf:type rdf:resource="&Disaster_Ontology;Clearing_Work"/>
+        <Disaster_Ontology:needsFirefighter rdf:datatype="&xsd;integer">10</Disaster_Ontology:needsFirefighter>
+        <Disaster_Ontology:needsPolice rdf:datatype="&xsd;integer">20</Disaster_Ontology:needsPolice>
+        <Disaster_Ontology:needsArmy rdf:datatype="&xsd;integer">30</Disaster_Ontology:needsArmy>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Containment_Tent -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Containment_Tent">
+        <rdf:type rdf:resource="&Disaster_Ontology;Other_Supply"/>
+        <Disaster_Ontology:hasPeopleCapacity rdf:datatype="&xsd;integer">5</Disaster_Ontology:hasPeopleCapacity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Evacuation_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Evacuation_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Evacuation"/>
+        <Disaster_Ontology:needsGroundVehicle></Disaster_Ontology:needsGroundVehicle>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Female -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Female">
+        <rdf:type rdf:resource="&Disaster_Ontology;Gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Firefighter -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Firefighter">
+        <rdf:type rdf:resource="&Disaster_Ontology;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Hercules_Air_Vehicle -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Hercules_Air_Vehicle">
+        <rdf:type rdf:resource="&Disaster_Ontology;Air_Vehicle"/>
+        <Disaster_Ontology:hasGoodsVolumeCapacity rdf:datatype="&xsd;integer">1000</Disaster_Ontology:hasGoodsVolumeCapacity>
+        <Disaster_Ontology:hasPeopleCapacity rdf:datatype="&xsd;integer">300</Disaster_Ontology:hasPeopleCapacity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Hilly -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Hilly">
+        <rdf:type rdf:resource="&Disaster_Ontology;Landscape_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#India -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;India">
+        <rdf:type rdf:resource="&Disaster_Ontology;Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Instant_Food -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Instant_Food">
+        <rdf:type rdf:resource="&Disaster_Ontology;Food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Male -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Male">
+        <rdf:type rdf:resource="&Disaster_Ontology;Gender"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Metro -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Metro">
+        <rdf:type rdf:resource="&Disaster_Ontology;Landscape_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mountain -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mountain">
+        <rdf:type rdf:resource="&Disaster_Ontology;Landscape_Type"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mumbai -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mumbai">
+        <rdf:type rdf:resource="&Disaster_Ontology;City"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mumbai_08042017_233030 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mumbai_08042017_233030">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking_History"/>
+        <Disaster_Ontology:hasIntensity rdf:datatype="&xsd;double">6.0</Disaster_Ontology:hasIntensity>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;Mumbai"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mumbai_Lavel_2 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mumbai_Lavel_2">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">2</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasPercentagePossibleVictim rdf:datatype="&xsd;integer">20</Disaster_Ontology:hasPercentagePossibleVictim>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;integer">6</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Clearing_Level_2"/>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;Mumbai"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mumbai_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mumbai_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">1</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasPercentagePossibleVictim rdf:datatype="&xsd;integer">10</Disaster_Ontology:hasPercentagePossibleVictim>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;integer">4</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Clearing_Level_1"/>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;Mumbai"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Mumbai_Level_3 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Mumbai_Level_3">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#New_Delhi -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;New_Delhi">
+        <rdf:type rdf:resource="&Disaster_Ontology;City"/>
+        <Disaster_Ontology:hasPopulation rdf:datatype="&xsd;integer">21750000</Disaster_Ontology:hasPopulation>
+        <Disaster_Ontology:hasLatitude rdf:datatype="&xsd;decimal">28.6139</Disaster_Ontology:hasLatitude>
+        <Disaster_Ontology:hasLongitude rdf:datatype="&xsd;decimal">77.2090</Disaster_Ontology:hasLongitude>
+        <Disaster_Ontology:hasName>New Delhi</Disaster_Ontology:hasName>
+        <Disaster_Ontology:hasLandscapeType rdf:resource="&Disaster_Ontology;Metro"/>
+        <Disaster_Ontology:hasEmergencyScheme rdf:resource="&Disaster_Ontology;New_Delhi_Level_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#New_Delhi_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;New_Delhi_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">1</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;decimal">4.5</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;New_Delhi"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Normal_Tent -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Normal_Tent">
+        <rdf:type rdf:resource="&Disaster_Ontology;Other_Supply"/>
+        <Disaster_Ontology:hasPeopleCapacity rdf:datatype="&xsd;integer">25</Disaster_Ontology:hasPeopleCapacity>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#O_Blood -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;O_Blood">
+        <rdf:type rdf:resource="&Disaster_Ontology;Blood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Drone -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Drone">
+        <rdf:type rdf:resource="&Disaster_Ontology;Air_Vehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Helicopter -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Helicopter">
+        <rdf:type rdf:resource="&Disaster_Ontology;Air_Vehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Clarification_Of_Situation"/>
+        <Disaster_Ontology:needsObservationDrone rdf:datatype="&xsd;integer">5</Disaster_Ontology:needsObservationDrone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Level_2 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Level_2">
+        <rdf:type rdf:resource="&Disaster_Ontology;Clarification_Of_Situation"/>
+        <Disaster_Ontology:needsObservationHelicopter rdf:datatype="&xsd;integer">2</Disaster_Ontology:needsObservationHelicopter>
+        <Disaster_Ontology:needsObservationDrone rdf:datatype="&xsd;integer">5</Disaster_Ontology:needsObservationDrone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Level_3 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Level_3">
+        <rdf:type rdf:resource="&Disaster_Ontology;Clarification_Of_Situation"/>
+        <Disaster_Ontology:needsObservationPlane rdf:datatype="&xsd;integer">2</Disaster_Ontology:needsObservationPlane>
+        <Disaster_Ontology:needsObservationHelicopter rdf:datatype="&xsd;integer">4</Disaster_Ontology:needsObservationHelicopter>
+        <Disaster_Ontology:needsObservationDrone rdf:datatype="&xsd;integer">8</Disaster_Ontology:needsObservationDrone>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observation_Plane -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observation_Plane">
+        <rdf:type rdf:resource="&Disaster_Ontology;Air_Vehicle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Observer -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Observer">
+        <rdf:type rdf:resource="&Disaster_Ontology;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Paramedic -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Paramedic">
+        <rdf:type rdf:resource="&Disaster_Ontology;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Police -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Police">
+        <rdf:type rdf:resource="&Disaster_Ontology;Team"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#Rice -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;Rice">
+        <rdf:type rdf:resource="&Disaster_Ontology;Food"/>
+        <Disaster_Ontology:hasVolume rdf:datatype="&xsd;integer">1</Disaster_Ontology:hasVolume>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#_General_Level_1 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;_General_Level_1">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">1</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;integer">4</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;-unregistered-"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Clearing_Level_1"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#_General_Level_2 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;_General_Level_2">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">2</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;integer">5</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;-unregistered-"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Clearing_Level_2"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#_General_Level_3 -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;_General_Level_3">
+        <rdf:type rdf:resource="&Disaster_Ontology;Ground_Shaking"/>
+        <Disaster_Ontology:hasEmergencyLevel rdf:datatype="&xsd;integer">3</Disaster_Ontology:hasEmergencyLevel>
+        <Disaster_Ontology:hasEarthquakeTreshold rdf:datatype="&xsd;integer">6</Disaster_Ontology:hasEarthquakeTreshold>
+        <Disaster_Ontology:hasLocation rdf:resource="&Disaster_Ontology;-unregistered-"/>
+        <Disaster_Ontology:needsAction rdf:resource="&Disaster_Ontology;Observation_Level_3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/classified/ontologies/2017/3/Disaster_Ontology#village -->
+
+    <owl:NamedIndividual rdf:about="&Disaster_Ontology;village">
+        <rdf:type rdf:resource="&Disaster_Ontology;Landscape_Type"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

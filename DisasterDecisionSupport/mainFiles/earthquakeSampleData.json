@@ -1,0 +1,101 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1488472809000,
+    "url": "https:\/\/earthquake.usgs.gov\/earthquakes\/feed\/v1.0\/summary\/significant_week.geojson",
+    "title": "USGS Significant Earthquakes, Past Week",
+    "status": 200,
+    "api": "1.5.4",
+    "count": 2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.5,
+        "place": "42km WSW of Anchor Point, Alaska",
+        "time": 1488420690658,
+        "updated": 1488472020618,
+        "tz": -600,
+        "url": "https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/ak15426300",
+        "detail": "https:\/\/earthquake.usgs.gov\/earthquakes\/feed\/v1.0\/detail\/ak15426300.geojson",
+        "felt": 459,
+        "cdi": 4.9,
+        "mmi": 4.16,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 690,
+        "net": "ak",
+        "code": "15426300",
+        "ids": ",ak15426300,at00om60r6,us100086f3,",
+        "sources": ",ak,at,us,",
+        "types": ",dyfi,geoserve,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": null,
+        "rms": 1.09,
+        "gap": null,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 5.5 - 42km WSW of Anchor Point, Alaska"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.6115,
+          59.5863,
+          76.9
+        ]
+      },
+      "id": "ak15426300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.9,
+        "place": "287km S of Ndoi Island, Fiji",
+        "time": 1487957324870,
+        "updated": 1488039715572,
+        "tz": -720,
+        "url": "https:\/\/earthquake.usgs.gov\/earthquakes\/eventpage\/us20008m3t",
+        "detail": "https:\/\/earthquake.usgs.gov\/earthquakes\/feed\/v1.0\/detail\/us20008m3t.geojson",
+        "felt": 2,
+        "cdi": 2.2,
+        "mmi": 2.99,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 1,
+        "sig": 733,
+        "net": "us",
+        "code": "20008m3t",
+        "ids": ",at00olw37x,us20008m3t,pt17055051,",
+        "sources": ",at,us,pt,",
+        "types": ",dyfi,geoserve,impact-link,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": null,
+        "dmin": 6.03,
+        "rms": 0.96,
+        "gap": 19,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.9 - 287km S of Ndoi Island, Fiji"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -178.8345,
+          -23.2448,
+          414.8
+        ]
+      },
+      "id": "us20008m3t"
+    }
+  ],
+  "bbox": [
+    -178.8345,
+    -23.2448,
+    76.9,
+    -152.6115,
+    59.5863,
+    414.8
+  ]
+}

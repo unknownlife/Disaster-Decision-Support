@@ -1,0 +1,1204 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:untitled-ontology-83="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SeaspaceAccident">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Transportation_Facility">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_temperature">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Climatological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extra-tropical_Cyclone(Winter_storm)">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Storm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#FireBrigade">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prion_Infectious__Diseases">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Measurement_Unit"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Vehicle">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AccidentDuringMilitaryPractising">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Hazard">
+    <rdfs:comment>A Natural Hazard is a naturally occurring event that might have a negative effect on people or the environment</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communications_Leader">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Wild_Fire">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Climatological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Icing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_Winter_Condition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Insect_Infestation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Biological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Nutrition_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Agency_Executive">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Medical_Planning_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Liaison_Officer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Geophysical_Disaster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoods">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClarificationOfSituation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Animal_stampede">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Biological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#WarSurvivors">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SurvivorsOfEmergencySituations"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Safety_Officer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landslide">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Mass_Movement(Wet)"/>
+    </rdfs:subClassOf>
+    <rdfs:comment>A landslide is the movement of soil or rock controlled by gravity and the speed of the movement usually ranges between slow and rapid, but not very slow. It can be superficial or deep, but the materials have to make up a mass that is a portion of the slope or the slope itself. The movement has to be downward and outward with a free face.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Tropical_storm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Storm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AirspaceAccident">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Situation_Unit_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CollapseByAccident">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StructuralAccident"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Division_Supervisor">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Storm"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Unpopulated_Region"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#HeatWave">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_temperature"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Finance_Admin_Chief">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster">
+    <rdfs:label>Accidents </rdfs:label>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Snowstorm/Blizzard">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Viral_Infectious_Diseases">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Public_Organization">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Service_Provider"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Clothing">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Relief_Items"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Branch_Director">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EconomicSecurity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Storm">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Meterological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Cloud_Burst">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Factors"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Vehicles">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Relief_Items"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#First_Responder">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flood">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hydrological_Disaster"/>
+    </rdfs:subClassOf>
+    <rdfs:comment>Flood is a state of higher water level along a river channel or on coast leading to inundation of land that is not normally submerge.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NGO">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Service_Provider"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#OccupationalDisability">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SocialSecurity"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PublicHealth">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Deflation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EconomicSecurity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#FireByAccident">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StructuralAccident"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flash_flood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flood"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hilly">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landscape"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Facilities_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Tornado">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Stampede">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AccidentByGatheringPeople"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#LowRating">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EconomicSecurity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Frost">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ColdWave"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Containment">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CropFailure">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SocialSecurity"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Freezing_rain">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_Winter_Condition"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalStaff">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Bacterial_Infectious_Diseases">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volcano">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Geophysical_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volunteer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Service_Provider"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SpaceExplorationAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AirspaceAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TrafficAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Biological_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Debris_Avalanche">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Avalanche"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AccidentByGatheringPeople">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Railway_Loss">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communicational_Loss"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Medical_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volunteers">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Supply_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#IndustrialAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Housing_Equipment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Relief_Items"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NGO&apos;s">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ColdWave">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_temperature"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Climatological_Disaster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Storm_surge/Coastal_flood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flood"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Biological_Disaster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Resource_Unit_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#General(river)_flood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flood"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Sandstorm/Duststorm">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RoadAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TrafficAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PharmaceuticalShortage">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PublicHealth"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Fungal_Infectious_Diseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Year">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Date"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Educational_Institute">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EnlightenmentOfPopulation">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hydrological_Disaster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+    <rdfs:comment>Hydrological disasters are defined as events caused by deviations in the normal water cycle and/or overflow of bodies of water caused by wind set-up.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epedemic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PublicHealth"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Rain">
+    <rdfs:label>Heavy_Rainfall</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Factors"/>
+    <rdfs:subClassOf>
+      <owl:Restriction>
+        <owl:onProperty>
+          <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_level"/>
+        </owl:onProperty>
+        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+        >8</owl:minCardinality>
+      </owl:Restriction>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CommunicationChannels">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Forest_Fire">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Wild_Fire"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MassMovement(dry)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Geophysical_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Populated_Region"/>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NuclearFamilys">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SurvivorsOfEmergencySituations"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RoadsDamaged">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communicational_Loss"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SocialSecurity">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EconomicAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#IndustrialAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Drought">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Climatological_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Bridge_Loss">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communicational_Loss"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Property_Loss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Meterological_Disaster">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#DocUnit_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Thunderstorm/Lightning">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landscape">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Debrisflow">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landslide"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Sudden_subsidence">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Subsidence"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Inflation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EconomicSecurity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Items">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Military">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Food_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Subsidence">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Mass_Movement(Wet)"/>
+    </rdfs:subClassOf>
+    <rdfs:comment>Subsidence is the motion of the Earth's surface as it shifts downward relative to a datum (e.g. the sea level). Subsidence dry can be the result of: geological faulting, isostatic rebound, human impact (e.g. mining, extraction of natural gas) etc. Subsidence (wet) can be the result of: karst, changes in soil water saturation, permafrost degradation (thermokarst) etc.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Water_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communicational_Loss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EnvironmentalAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#IndustrialAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Electricity_Loss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MassacreSurvivor">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SurvivorsOfEmergencySituations"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Fuel_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground_Shaking">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSupport">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground_Support_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Air">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Vehicle"/>
+    <owl:disjointWith>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+    </owl:disjointWith>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RailAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TrafficAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#DryFood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Relief_Items"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Geophysical_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NutritionalDeficiences">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NutritionalProblems"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AccidentAtWork/Occupation">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SocialSecurity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hospital_Loss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extra-terrestrial">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Rehabilitation_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Task_Force_Sector_Leader">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#INGO">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Service_Provider"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Private_Organization">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Service_Provider"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Long-Lasting_subsidence">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Subsidence"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Goods_Supply_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Operation&apos;s_Chief">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Land_Fire(grass,scrub,bush)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Wild_Fire"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Public_Info_Officer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_Winter_Condition">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_temperature"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Generic(severe)_storm">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volcanic_Eruption">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volcano"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NutritionalProblems">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PublicHealth"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Rockfall">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Mass_Movement(Wet)"/>
+    </rdfs:subClassOf>
+    <rdfs:comment>Rockfall refers to quantities of rock or stone falling freely from a cliff face. It is caused by undercutting, weathering or permafrost degradation.</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:comment>Natural Disaster is the consequence of a Natural Hazard(e.g volcanic eruption, earthquake or landslide) which affect human activities </rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Sanitary_Equipment">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Relief_Items"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Vehicle"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StructuralAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Accident_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Tsunsmi">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communication_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#DrinkWaterShortage">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NutritionalProblems"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Pendemic">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#PublicHealth"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AvitationAccident">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#AirspaceAccident"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Education_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsSupport">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Deputy_Incident_Commander">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Logistics_Chief">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Debris_avalanche">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_Winter_Condition"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Strong_Wind">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Factors"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Mass_Movement(Wet)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hydrological_Disaster"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Meteorit/Asteorit">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extra-terrestrial"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Snow_Avalanche">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Avalanche"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Planning_Chief">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Flat">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landscape"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hilly"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Orographic_storm(strong_winds)">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Local/Convective_storm"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Snow_Pressure">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Extreme_Winter_Condition"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SurvivorsOfEmergencySituations">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SocialSecurity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#FarmLand_Loss">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Losses"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Avalanche">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Mass_Movement(Wet)"/>
+    <rdfs:comment>valanche describes a quantity of snow or ice that slides down a mountainside under the force of gravity. It occurs if the load on the upper snow layers exceeds the bonding forces of the entire mass of snow. It often gathers material that is underneath the snowpack like soil, rock etc (debris avalanche).</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Shelter_And_Housing_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Country">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Parasitic_Infectious_Diseases">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Incident_Commander">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Person"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Electric_Facility">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Services"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Farmine">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NutritionalProblems"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Grasshoper/Locust/Worms">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Insect_Infestation"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#River_Overflow">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Factors"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_Recources">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#is_part_of">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Country"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_location">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#can_cause"/>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_Action">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_primer_Landscape">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landscape"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#caused_by">
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Factors"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Natural_Disaster"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Measured_in"/>
+  <owl:ObjectProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#is_a"/>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_ClarificationOfSituation">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_Containment">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_Prevention">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_area">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Location"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_ClearingWork">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#way_of_transmission">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NbOfPossibleVictims">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_size">
+    <rdfs:comment>Size in km^2</rdfs:comment>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_SupplyGoodsSupport">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_MedicalSupport">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NbOfNeededRecourses">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#is_transmitted_by">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_intensity">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground_Shaking"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#test">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_distance_to_City">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#hasCriticalIntensity">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_magnitude"/>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#time_until_Event">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_level">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Rain"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_Evacuation">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#has_speed">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#needs_EnlightenmentOfPopulation">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Emergency_Situations"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NbOfResidents">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+  </owl:DatatypeProperty>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Tornado1">
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork3">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SpecialVehicles3">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">9</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EOP2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communication2">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">6</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CommunicationChannels"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EnlightenmentOfPopulation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuationplan3">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TransportVehicle3">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">230</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery3">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSet3">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">1400</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsDelivery1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodSet1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">1500</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoods"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:has_location>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#delhi">
+        <untitled-ontology-83:is_part_of>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#India">
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Country"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:is_part_of>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:has_location>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Tornado"/>
+  </owl:NamedIndividual>
+  <untitled-ontology-83:Country rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Indonesia"/>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake2">
+    <untitled-ontology-83:has_intensity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >4</untitled-ontology-83:has_intensity>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SpecialVehicles1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">15</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuationplan2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TransportVehicle2">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">120</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:has_location>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Frankfurt">
+        <untitled-ontology-83:has_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >249</untitled-ontology-83:has_size>
+        <untitled-ontology-83:hasCriticalIntensity rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-83:hasCriticalIntensity>
+        <untitled-ontology-83:NbOfResidents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >732688</untitled-ontology-83:NbOfResidents>
+        <untitled-ontology-83:is_part_of>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Germany">
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Country"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:is_part_of>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:has_location>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSet2">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">700</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Observation2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ObservationHelicopter1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Air"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClarificationOfSituation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsDelivery2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodSet2">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">4000</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoods"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground_Shaking"/>
+  </owl:NamedIndividual>
+  <untitled-ontology-83:Country rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Malaysia"/>
+  <untitled-ontology-83:Ground_Shaking rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake3">
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention1">
+        <untitled-ontology-83:needs_Recources rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SpecialVehicles1"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery3"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Observation3">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ObservationPlane">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">1</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Air"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClarificationOfSituation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <untitled-ontology-83:has_location>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Muenchen">
+        <untitled-ontology-83:NbOfResidents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >1450381</untitled-ontology-83:NbOfResidents>
+        <untitled-ontology-83:has_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >311</untitled-ontology-83:has_size>
+        <untitled-ontology-83:hasCriticalIntensity rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-83:hasCriticalIntensity>
+        <untitled-ontology-83:has_primer_Landscape>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Alps">
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Hilly"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:has_primer_Landscape>
+        <untitled-ontology-83:is_part_of rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Germany"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:has_location>
+    <untitled-ontology-83:has_intensity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >6</untitled-ontology-83:has_intensity>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuationplan3"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsDelivery3">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodSet3">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">7000</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoods"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SpecialVehicles2">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">32</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+  </untitled-ontology-83:Ground_Shaking>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ranchi,_Jharkhand">
+    <untitled-ontology-83:time_until_Event>6</untitled-ontology-83:time_until_Event>
+    <untitled-ontology-83:is_part_of rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#India"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+  </owl:NamedIndividual>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ReactionsOnEs"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#RecoursesForReactions"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#StaffForReactionTasks"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Country"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Landscape"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic2">
+    <untitled-ontology-83:is_transmitted_by>Person-To-Animal Contact</untitled-ontology-83:is_transmitted_by>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EOP1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Communication1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">3</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CommunicationChannels"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EnlightenmentOfPopulation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:has_location rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Frankfurt"/>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery2"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention2">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Serums1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">13000</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Viral_Infectious_Diseases"/>
+  </owl:NamedIndividual>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClarificationOfSituation"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Containment"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EnlightenmentOfPopulation"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuation"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSupport"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsSupport"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Epidemic1">
+    <untitled-ontology-83:is_transmitted_by>Air</untitled-ontology-83:is_transmitted_by>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Containment1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SterileTents">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">240</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Items"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Containment"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:has_location>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Darmstadt">
+        <untitled-ontology-83:has_size rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >122</untitled-ontology-83:has_size>
+        <untitled-ontology-83:NbOfResidents rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+        >155353</untitled-ontology-83:NbOfResidents>
+        <untitled-ontology-83:hasCriticalIntensity rdf:datatype=
+        "http://www.w3.org/2001/XMLSchema#integer">4</untitled-ontology-83:hasCriticalIntensity>
+        <untitled-ontology-83:is_part_of rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Germany"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#City"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:has_location>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#EOP2"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSet1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">300</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalSupport"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Prevention2"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Viral_Infectious_Diseases"/>
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Earthquake1">
+    <untitled-ontology-83:has_intensity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >6</untitled-ontology-83:has_intensity>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClearingWork3"/>
+    <untitled-ontology-83:has_location rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Darmstadt"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuationplan1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#TransportVehicle1">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">50</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Evacuation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalDelivery1"/>
+    <untitled-ontology-83:needs_Action>
+      <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Observation1">
+        <untitled-ontology-83:needs_Recources>
+          <owl:NamedIndividual rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ObservationDrones">
+            <untitled-ontology-83:NbOfNeededRecourses rdf:datatype=
+            "http://www.w3.org/2001/XMLSchema#integer">5</untitled-ontology-83:NbOfNeededRecourses>
+            <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Air"/>
+          </owl:NamedIndividual>
+        </untitled-ontology-83:needs_Recources>
+        <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#ClarificationOfSituation"/>
+      </owl:NamedIndividual>
+    </untitled-ontology-83:needs_Action>
+    <untitled-ontology-83:needs_Action rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoodsDelivery1"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Ground_Shaking"/>
+  </owl:NamedIndividual>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#FireBrigade"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalStaff"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Military"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#NGO&apos;s"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Volunteers"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+  <owl:AllDisjointClasses>
+    <owl:members rdf:parseType="Collection">
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#CommunicationChannels"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Items"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#MedicalItems"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#SupplyGoods"/>
+      <owl:Class rdf:about="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#Vehicle"/>
+    </owl:members>
+  </owl:AllDisjointClasses>
+</rdf:RDF>

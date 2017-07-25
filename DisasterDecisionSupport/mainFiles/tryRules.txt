@@ -1,0 +1,11 @@
+@prefix es: <http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#>
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+@prefix owl: <http://www.w3.org/2002/07/owl#>
+
+//c:common
+//eq:earthquake
+
+
+[rule1:(?x rdf:type es:Ground_Shaking),(?x es:has_magnitude ?m),(?x es:has_location ?l),(?y rdf:type es:Search_and_Rescue),(?y es:has_location ?l1), equal(?l,?l1), (?y es:has_magnitude ?m1), ge(?m,?m1) ->(?x owl:sameAs ?y)] 

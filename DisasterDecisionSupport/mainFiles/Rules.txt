@@ -1,0 +1,15 @@
+@prefix es: <http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#>
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#>
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+[r0: (?x es:has_location ?y), (?y  es:NbOfResidents ?z)  ->  (?x es:NbOfPossibleVictims ?z)]
+[r1: (?x rdf:type es:Ground_Shaking),(?x es:has_intensity ?y), (?x es:has_location ?c), (?c es:hasCriticalIntensity ?I), greaterThan(?y, ?I) -> (?x es:reactionIsNeeded "true")]
+[r3: (?x rdf:type es:Ground_Shaking), (?x es:has_location ?c), (?c es:has_primer_Landscape ?l), (?l rdf:type es:Hilly) -> (?x es:needs_Prevention "true")]
+[r4: (?x rdf:type es:Ground_Shaking), (?x es:reactionIsNeeded "true") -> (?x es:needs_Evacuation "true"), (?x es:needs_ClearingWork "true"),(?x es:needs_MedicalSupport "true"),(?x es:needs_SupplyGoodsSupport "true"), (?x es:needs_ClarificationOfSituation "true")]
+[r5: (?x rdf:type es:Tornado), (?x es:has_distance_to_City ?d), (?x es:has_speed ?s), quotient(?d, ?s, ?c) -> (?x es:time_until_Event ?c)]
+[r6: (?x rdf:type es:Tornado), (?x es:time_until_Event ?t), greaterThan(?t, 4) -> (?x es:needs_Evacuation "true")]
+[r7: (?x rdf:type es:Tornado) -> (?x es:needs_SupplyGoodsSupport "true"), (?x es:needs_ClearingWork "true"), (?x es:needs_MedicalSupport "true"), (?x es:needs_EnlightenmentOfPopulation "true")]
+[r8: (?x rdf:type es:Viral_Infectious_Diseases),(?x es:way_of_transmission "Air") -> (?x es:needs_Containment "true")]
+[r9: (?x rdf:type es:Viral_Infectious_Diseases) -> (?x es:needs_MedicalSupport "true"), (?x es:needs_Prevention "true"), (?x es:needs_EnlightenmentOfPopulation "true")]
+ 

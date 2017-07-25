@@ -1,0 +1,46 @@
+Basic:
+-Make decision
+
+
+
+Expansion:
+-can access internet (request n respond)
+-receive data from auto-location system
+	-what is the data format?
+	-how can we simulate it?
+-make decision for additional data (maybe from API/apdated periodically in the ontology):
+	-population 
+	-Type of place (hilley/ city/ metro/ etc)
+-Send the decision support to the authority
+-Send SMS by sending send-SMS request to the SMS service provider
+	-from where can we get phone no data of people?
+	-where do we store the phone no data? seperate server/API/knowledge base/database?
+-Admin access to the system
+	-what is the interface?
+	-priviledge:
+		-manage rules
+		-manage authorities
+
+
+
+
+
+
+format request={
+success: true/false,
+type: newIndividual, setPropertyValue, newClass, newSubclass, newDatatypeProperty, setInversePrperty, setFunctionalProperty, newIntersectionClass, newUnionClass, newComplementClass,
+data: {
+	},
+token: 
+}
+
+format disaster={
+	data:{
+		type: earthquake,
+		literals:{
+			hasIntensity: 8,
+			location: ,
+			time: 
+		}
+	}
+}
